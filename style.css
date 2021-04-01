@@ -1,0 +1,631 @@
+body{
+	margin:0px;
+}
+/*body-header*/
+#b-header{
+	height: 65vh;
+	opacity:1;
+	background-image: url("banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	
+}
+/*nav-list*/
+
+#navigation{
+	background-image:linear-gradient(red,tomato);
+	padding: 5px;
+}
+.Horizental-list{
+	list-style: none;
+	margin:0px;
+	padding-left: 0px;
+	
+}
+
+.Horizental-list li{
+	display: inline-block;
+    margin: 0px 10px 0px 20px;
+
+}
+
+.Horizental-list li a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size:1.3em;
+	text-transform: uppercase;
+}
+
+
+
+.text-center{
+	text-align: center;
+}
+
+.nav-menu li a:hover{
+	border-bottom: 1px solid yellow;
+	transition: color 0.8s ,border-bottom 0.8s;
+	color:lightgray;
+	
+
+}
+
+/*header-Title*/
+.header-title{
+	font-size: 4rem;
+	color: red;
+	font-weight: 700;
+	word-spacing: 0.2em;
+    font-family: sans-serif;
+    margin-top: 8%;
+    letter-spacing: 0.4rem;
+}
+
+/*social-icon*/
+.social-icon li a i{
+      padding: 10px;
+      color: red;
+      font-size:2rem;
+      border-radius: 50%;
+
+}
+
+.social-icon li a i:hover{
+	
+    box-shadow: 0px 0px 6px 6px rgb(139,0,0,0.7);
+    transition: box-shadow 2s;
+
+}
+/*about -section*/
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+
+
+}
+
+/*profile image*/
+
+#my-profile{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -17vh;
+}
+
+#my-profile img{
+	height: 100%;
+	width:100%;
+	border-radius: 50%;
+	box-shadow: 0px -2px 8px 3px red;
+
+}
+
+#about-details{
+	width: 100%;
+	height: auto;
+	
+}
+.about-title{
+	color:red;
+	word-spacing: 2px;
+}
+
+p{
+	text-transform: capitalize;
+	font-weight:200;
+	width: 70%;
+	text-align: justify;
+	margin:auto;
+	font-size: 1.2rem;
+	word-spacing: 0.1em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+/*all about flex section-----------------------------------------*/
+section{
+	width: 100%;
+	margin-top:50px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+}
+
+section:nth-child(2n){
+background-color: #f5f5f0;
+}
+
+section:nth-child(2n+1){
+background-color: white;
+}
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	margin: 10px auto;
+	font-weight: 400;
+	
+}
+
+.mg-bottom{
+	margin-bottom:50px;
+}
+
+.section-heading span{
+	font-size: 35px;
+	color: red;
+	display: inline-block;
+	padding-top: 10px;
+	margin: 0.5rem;
+}
+
+.skills-display{
+	width:70%;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	margin-bottom: 70px;
+}
+
+.skill-progress{
+	margin: 4%;
+	width: 12rem;
+	background-color:white;
+	border-width:1px;
+	border-radius:1rem;
+	box-shadow: 0px 0px 8px 3px rgb(255, 0, 0,4);
+
+}
+
+/*percent-class--------------------------------------------*/
+.seventy-five-percent{
+	width:75%;
+	height: inherit; /*height will be inherit from parents class*/
+	padding: 5px;
+
+}
+
+.sixty-five-percent{
+	width:65%;
+	height: inherit; /*height will be inherit from parents class*/
+	padding: 5px;
+
+}
+
+.sixty-percent{
+	width:60%;
+	height: inherit; /*height will be inherit from parents class*/
+	padding: 5px;
+
+}
+
+.seventy{
+	width:70%;
+	height: inherit; /*height will be inherit from parents class*/
+	padding: 5px;
+
+}
+
+.fifty-percent{
+	width:50%;
+	height: inherit; /*height will be inherit from parents class*/
+	padding: 5px;
+
+}
+
+.fifty-five{
+	width:55%;
+	height: inherit; /*height will be inherit from parents class*/
+	padding: 5px;
+
+}
+/*percent-class----------------EEnnDD-------------------*/
+
+/*bg-color class*/
+.bg-blue{
+	background-color: SlateBlue;
+}
+
+.bg-DodgerBlue{
+	background-color: DodgerBlue;
+}
+
+.bg-cyan{
+	background-color: #66d9ff;
+}
+
+.bg-black{
+	background-color: #333333;
+}
+
+.bg-MediumSeaGreen{
+	background-color:MediumSeaGreen;
+}
+
+
+.bg-Tomato{
+	background-color:Tomato;
+}
+
+/*bg-color class -end*/
+
+/*progress-bar child border*/
+
+.child-border{
+	border-bottom-left-radius: 0.8rem;
+	border-top-left-radius: 0.8rem;
+
+}
+/*progress-bar child border-end*/
+
+.skill-name>span{
+	margin:5%;
+	font-weight: bolder;
+	color: white;
+	font-family:sans-serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+
+/*styling for timelines/Education section*/
+
+.timeline{
+	width:75%;
+    position: relative;
+   
+
+}
+
+
+.timelines-box{
+	width:40%;
+	min-height:150px;
+	margin: 5px;
+	position: relative;
+
+}
+
+
+
+.timelines-box:nth-child(2n+1)::after{
+	content: '';
+	border-radius: 50%;
+	width:0.8rem;
+	height:0.8rem;
+	background-color: #e0e0d1 ; 
+	position: absolute;
+    top:20%;
+	right: -26%;
+	z-index: 1;
+}
+
+.timelines-box:nth-child(2n)::after{
+	content: '';
+	border-radius: 50%;
+	width:0.8rem;
+	height:0.8rem;
+	background-color:#e0e0d1 ;
+	
+	position: absolute;
+    top:20%;
+	left: -28%;
+	z-index: 1;
+}
+
+
+
+.timelines-box:nth-child(2n){
+	left: 60%;
+}
+
+
+
+
+.timeline-path{
+	border:1px dotted blue;
+	height: 66%;
+	width:0;
+	position:absolute;
+	top: 10%;
+	left: 50%;
+	
+
+}
+
+
+
+
+.timeline-indicator{
+	font-size: 30px;
+	color: red;
+	transform:rotate(90deg);
+	position: sticky;
+	top: 51%;
+	left: 48%;
+	z-index:2;
+
+}
+
+
+
+/*styling for timelines/Education section----------end-----*/
+
+.box-title span{
+	display: block;
+	color:	 DodgerBlue;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-family:sans-serif; 
+}
+
+.box-title .box-heading span{
+	letter-spacing: 3px;
+	color:Tomato;
+	font-weight: bolder;
+	font-size: 25px;
+	margin:0PX;
+	display: inline-block;
+
+}
+
+.box-title .box-heading span i{
+	margin-right:100px;
+}
+
+
+
+.box-title{
+	text-align: right;
+	margin-right: 55px;
+
+	
+}
+
+.box-content-timeline p{
+	font-weight: normal;
+	color:#8a8a5c;
+	font-family:sans-serif; 
+	font-size: 12.5px;
+	word-spacing:0px;
+	line-height: 18px; 
+}
+
+/*-------------------------portfolio-section-------------------------------------*/
+
+.port-section{
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 75px;
+}
+
+.port-section .each-section{
+	 width: 30%;
+	 height: 30vh;
+	 margin: 10px;
+	
+}
+
+.img-section img{
+
+	background-size:cover;
+    width: 100%;
+    height:30vh;
+
+
+
+}
+
+@media screen and (max-width: 600px){
+
+
+	.port-section .each-section{
+	 height: 15vh;
+	 
+	
+}
+
+.img-section img{
+
+	
+    height:15vh;
+
+
+
+}
+}
+
+
+
+
+.img-section img:hover{
+	box-shadow:0px 0px 8px 3px rgb(0, 0, 255,0.5);
+}
+
+
+
+
+
+
+
+footer{
+	margin: auto;
+	background-image:linear-gradient(red,tomato,red);
+	
+}
+
+
+#contact{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+	
+	
+}
+
+
+
+
+.f-icon li a i{
+      
+      color: white;
+      font-size:1.5rem;
+
+
+}
+
+.f-icon li a i:hover{
+	
+    box-shadow: 0px 0px 6px 6px rgb(255, 255, 255,0.5);
+    transition: box-shadow 2s;}
+
+address{
+	font-size: 1.2rem;
+	color: white;
+	word-spacing: 0.2rem;
+	line-height: 2rem;
+	padding: 20px;
+
+}
+
+address span i{
+	margin-right: 10px;
+	color: tomato;
+}
+
+input{
+	display: block;
+	padding: 10px;
+	width: 250px;
+	margin: 5px;
+	border:0px;
+	border-radius: 5px;
+
+}
+form {
+	padding: 20px;
+
+}
+form label{
+	color:white;
+	font-size: 1.2rem;
+	margin: 5px;
+}
+
+button[type=submit]{
+	
+	color:White;
+    padding: 10px;
+    font-size:1.2rem; 
+    margin:5px;
+    background-color:tomato;
+    border:0px;
+    border-radius: 20px;
+    font-weight: bolder;
+   
+}
+
+button[type=submit]:hover{
+	background-color: DodgerBlue;
+	color: black;
+	
+
+
+
+}
+
+textarea{
+	margin: 5px;
+    border-radius: 5px;
+    border:0px;
+}
+
+
+
+/*------------styling work experiance-----------------------*/
+.exp-path{
+height: 60%;
+}
+
+/*-----media queries for responsive webdesign---------------*/
+
+@media screen and (max-width: 600px){
+	.timeline-path{
+		left: 5%;
+	}
+
+	.timelines-box{
+		left: 12% !important;
+		width: 80%;
+	}
+
+	/*.timelines-box:nth-child(2n){
+	left: 12%;
+	width: 80%;}*/
+
+	html{
+		font-size: 15px;
+	}
+
+
+	.timelines-box::after{
+		left: -12% ! important;
+		top: 30% ! important;
+	}
+
+
+	.Horizental-list li a{
+		font-size: 0.4rem;
+	}
+
+	#b-header{
+		height: 35vh;
+	}
+
+
+	#navigation{
+		padding: 0px;
+	}
+
+
+	#my-profile{
+	height: 8rem;
+	width: 8rem;
+	margin: auto;
+	margin-top: -8vh;
+}
+
+#my-profile img{
+	height: 100%;
+	width:100%;
+	border-radius: 50%;
+	box-shadow: 0px -2px 8px 3px red;
+
+}
+
+.header-title{
+	font-size: 2rem;
+	font-weight: 600;
+	word-spacing: 0.1em;
+    font-family: sans-serif;
+    margin-top: 4%;
+    letter-spacing: 0.1rem;
+}
+
+
+
+}
+/*-------------------------------------*/
