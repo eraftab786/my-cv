@@ -294,32 +294,29 @@ background-color: white;
 }
 
 
-
-.timelines-box:nth-child(2n+1)::after{
-	content: '';
-	border-radius: 50%;
-	width:0.8rem;
-	height:0.8rem;
-	background-color: #e0e0d1 ; 
-	position: absolute;
-    top:20%;
-	right: -26%;
-	z-index: 1;
+.timelines-box:nth-child(2n+1)::after {
+    content: '';
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #e0e0d1;
+    position: absolute;
+    top: 25%;
+    right: -25.6%;
+    z-index: 1;
 }
 
-.timelines-box:nth-child(2n)::after{
-	content: '';
-	border-radius: 50%;
-	width:0.8rem;
-	height:0.8rem;
-	background-color:#e0e0d1 ;
-	
-	position: absolute;
-    top:20%;
-	left: -28%;
-	z-index: 1;
+.timelines-box:nth-child(2n)::after {
+    content: '';
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #e0e0d1;
+    position: absolute;
+    top: 20%;
+    left: -27.7%;
+    z-index: 1;
 }
-
 
 
 .timelines-box:nth-child(2n){
